@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./assets/bg-image.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  color: #101415;
+  background-color: rgba(250, 251, 251, 0.5);
+  padding: 5px;
+  border-radius: 1rem;
+  display: inline-block;
+}
+
+.card-container {
+  background-color: rgba(11, 22, 35, 0.6);
+  min-height: 350px;
+}
+
+.player-card {
+  height: 400px !important;
+  overflow: hidden;
+
+  & img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s;
+    object-fit: cover;
+    object-position: top;
+  }
+  &:hover {
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+    & img {
+      transform: scale(1.1);
+      filter: none;
+    }
+  }
+}
