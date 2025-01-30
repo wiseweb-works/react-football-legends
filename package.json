@@ -4,10 +4,15 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^5.3.3",
+    "prune": "^0.0.2",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.7",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1"
+  },
+  "resolutions": {
+    "nth-check": "^2.1.1",
+    "postcss": "^8.5.1"
   },
   "scripts": {
     "start": "react-scripts start",
