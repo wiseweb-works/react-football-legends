@@ -11,7 +11,8 @@
   },
   "resolutions": {
     "nth-check": "^2.1.1",
-    "postcss": "^8.5.1"
+    "postcss": "^8.5.1",
+    "webpack-dev-server": "^5.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
